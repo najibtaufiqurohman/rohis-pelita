@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kegiatan | Rohis Pelita</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <a href="/" class="brand">
+            <div class="brand-icon">☪</div>
+            <div class="brand-text">
+                <strong>ROHIS PELITA</strong>
+                <span>SMK PLUS PELITA NUSANTARA</span>
+            </div>
+        </a>
+        <nav class="nav-links">
+            <a href="/">Beranda</a>
+            <a href="/tentang">Tentang</a>
+            <a class="active" href="/kegiatan">Kegiatan</a>
+            <a href="/struktur">Struktur</a>
+            <a href="/galeri">Galeri</a>
+            <a href="/kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="activities section-padding">
+        <div class="section-label">PROGRAM KAMI</div>
+        <h1 class="section-title">Kegiatan dalam <span>kebaikan.</span></h1>
+        <div class="activity-grid">
+            <article class="activity-card">
+                <div class="activity-symbol">☾</div>
+                <h3>Kajian Keislaman</h3>
+                <p>Belajar dan memperdalam wawasan agama Islam.</p>
+            </article>
+            <article class="activity-card featured-card">
+                <div class="activity-symbol">✧</div>
+                <h3>Program Keagamaan</h3>
+                <p>Membangun kebersamaan melalui kegiatan islami.</p>
+            </article>
+            <article class="activity-card">
+                <div class="activity-symbol">❋</div>
+                <h3>Berbagi & Peduli</h3>
+                <p>Menumbuhkan kepedulian terhadap sesama.</p>
+            </article>
+        </div>
+        <p class="activity-disclaimer">
+            Sesuaikan contoh kegiatan ini dengan program resmi sekolah.
+        </p>
+    </section>
+</body>
+</html>

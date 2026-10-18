@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website resmi Rohis SMK PLUS PELITA NUSANTARA.">
+    <title>Rohis Pelita Nusantara | Bersama dalam Kebaikan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#beranda" class="brand">
+            <div class="brand-icon">☪</div>
+            <div class="brand-text">
+                <strong>ROHIS PELITA</strong>
+                <span>SMK PLUS PELITA NUSANTARA</span>
+            </div>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Buka navigasi" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="/" class="active">Beranda</a>
+            <a href="/tentang">Tentang</a>
+            <a href="/kegiatan">Kegiatan</a>
+            <a href="/struktur">Struktur</a>
+            <a href="/galeri">Galeri</a>
+            <a href="/kontak" class="nav-cta">Hubungi Kami ↗</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="beranda">
+            <div class="hero-pattern"></div>
+
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    ORGANISASI ROHANI ISLAM SEKOLAH
+                </div>
+
+                <h1>
+                    Menumbuhkan Iman,<br>
+                    <span>Menginspirasi</span><br>
+                    Generasi.
+                </h1>
+
+                <p class="hero-description">
+                    Ruang bertumbuh, belajar, dan berbagi kebaikan.
+                    Bersama Rohis, mari jadikan masa sekolah lebih
+                    bermakna dengan iman dan akhlak mulia.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#tentang" class="btn-primary">
+                        Kenali Rohis Kami <span>→</span>
+                    </a>
+                    <a href="#kegiatan" class="btn-secondary">
+                        Jelajahi Kegiatan
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <div class="note-icon">✦</div>
+                    <p>Belajar bersama, bertumbuh bersama,<br>
+                    menebar manfaat untuk sesama.</p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-frame">
+                    <div class="visual-placeholder">
+                        <div class="moon">☾</div>
+                        <div class="mosque">
+                            <div class="dome"></div>
+                            <div class="dome dome-small"></div>
+                            <div class="minaret minaret-left"></div>
+                            <div class="minaret minaret-right"></div>
+                            <div class="mosque-building">
+                                <div class="mosque-door"></div>
+                                <div class="mosque-window window-one"></div>
+                                <div class="mosque-window window-two"></div>
+                            </div>
+                        </div>
+                        <div class="visual-caption">
+                            <span>ROHIS</span>
+                            <strong>Pelita Nusantara</strong>
+                            <small>Menebar kebaikan, merawat kebersamaan</small>
+                        </div>
+                    </div>
+                    <div class="frame-label">EST. PELITA NUSANTARA</div>
+                </div>
+
+                <div class="floating-card">
+                    <div class="floating-icon">✧</div>
+                    <div>
+                        <strong>Berproses dalam kebaikan</strong>
+                        <span>Langkah kecil, makna besar.</span>
+                    </div>
+                </div>
+                <div class="decorative-star star-one">✳</div>
+                <div class="decorative-star star-two">✦</div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>01 — BERTUMBUH DALAM IMAN</span>
+                <a href="#tentang">GULIR UNTUK MENGENAL KAMI ↓</a>
+            </div>
+        </section>
+
+        <section class="intro section-padding" id="tentang">
+            <div class="section-label">01 / TENTANG KAMI</div>
+            <div class="intro-grid">
+                <div>
+                    <h2 class="section-title">
+                        Bukan sekadar organisasi,<br>
+                        <span>tetapi keluarga dalam kebaikan.</span>
+                    </h2>
+                </div>
+                <div class="intro-text">
+                    <p>
+                        Rohani Islam (Rohis) SMK PLUS PELITA NUSANTARA
+                        merupakan ruang bagi siswa untuk memperdalam
+                        pengetahuan agama, membangun karakter, dan
+                        menjalin persaudaraan dalam suasana positif.
+                    </p>
+                    <a href="#nilai" class="text-link">
+                        Kenali nilai-nilai kami <span>↗</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">01</span>
+                    <strong>Memperdalam Ilmu</strong>
+                    <p>Belajar agama dan menambah wawasan keislaman.</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">02</span>
+                    <strong>Membentuk Akhlak</strong>
+                    <p>Melatih diri menjadi pribadi yang santun dan amanah.</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">03</span>
+                    <strong>Menebar Manfaat</strong>
+                    <p>Menghadirkan kegiatan yang positif bagi sesama.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="activities section-padding" id="kegiatan">
+            <div class="section-label">02 / KEGIATAN KAMI</div>
+            <div class="section-heading-row">
+                <div>
+                    <h2 class="section-title">
+                        Langkah kebaikan,<br><span>setiap kesempatan.</span>
+                    </h2>
+                </div>
+                <p class="heading-description">
+                    Belajar, beribadah, dan membangun kebersamaan
+                    melalui kegiatan yang bermakna.
+                </p>
+            </div>
+
+            <div class="activity-grid">
+                <article class="activity-card">
+                    <div class="activity-number">01</div>
+                    <div class="activity-symbol">☾</div>
+                    <span class="activity-tag">IBADAH & ILMU</span>
+                    <h3>Kajian Keislaman</h3>
+                    <p>Menambah wawasan dan memperdalam pemahaman agama bersama.</p>
+                    <a href="#kontak" aria-label="Tanyakan tentang kajian">↗</a>
+                </article>
+
+                <article class="activity-card featured-card">
+                    <div class="activity-number">02</div>
+                    <div class="activity-symbol">✧</div>
+                    <span class="activity-tag">KEBERSAMAAN</span>
+                    <h3>Program Keagamaan</h3>
+                    <p>Menghidupkan suasana sekolah dengan kegiatan islami yang positif.</p>
+                    <a href="#kontak" aria-label="Tanyakan program keagamaan">↗</a>
+                </article>
+
+                <article class="activity-card">
+                    <div class="activity-number">03</div>
+                    <div class="activity-symbol">❋</div>
+                    <span class="activity-tag">AKSI KEBAIKAN</span>
+                    <h3>Berbagi & Peduli</h3>
+                    <p>Menumbuhkan kepedulian sosial dan semangat berbagi kepada sesama.</p>
+                    <a href="#kontak" aria-label="Tanyakan kegiatan berbagi">↗</a>
+                </article>
+            </div>
+            <p class="activity-disclaimer">
+                * Contoh kegiatan. Sesuaikan dengan program Rohis yang benar-benar dilaksanakan di sekolah.
+            </p>
+        </section>
+
+        <section class="values section-padding" id="nilai">
+            <div class="values-inner">
+                <div class="section-label">03 / NILAI KAMI</div>
+                <div class="values-content">
+                    <div>
+                        <h2 class="section-title">
+                            Tumbuh dengan nilai,<br>
+                            <span>melangkah dengan hati.</span>
+                        </h2>
+                        <p>
+                            Kami percaya bahwa kebaikan dimulai dari diri
+                            sendiri, tumbuh melalui kebersamaan, dan
+                            menjadi berarti saat dibagikan kepada sesama.
+                        </p>
+                    </div>
+                    <div class="value-list">
+                        <div class="value-row">
+                            <span>01</span>
+                            <div>
+                                <strong>Iman</strong>
+                                <p>Menjadikan nilai-nilai Islam sebagai pedoman.</p>
+                            </div>
+                            <span class="value-star">✦</span>
+                        </div>
+                        <div class="value-row">
+                            <span>02</span>
+                            <div>
+                                <strong>Akhlak</strong>
+                                <p>Mengutamakan adab, kejujuran, dan tanggung jawab.</p>
+                            </div>
+                            <span class="value-star">✦</span>
+                        </div>
+                        <div class="value-row">
+                            <span>03</span>
+                            <div>
+                                <strong>Ukhuwah</strong>
+                                <p>Merawat persaudaraan dan saling menguatkan.</p>
+                            </div>
+                            <span class="value-star">✦</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="arabic-decoration">بِسْمِ اللَّهِ</div>
+            </div>
+        </section>
+
+        <section class="contact section-padding" id="kontak">
+            <div class="contact-card">
+                <div class="contact-decoration">✳</div>
+                <div class="section-label">04 / MARI TERHUBUNG</div>
+                <h2>Siap bertumbuh<br>bersama <span>Rohis?</span></h2>
+                <p>
+                    Punya pertanyaan tentang Rohis atau ingin mengenal
+                    kegiatan kami lebih dekat? Mari mulai percakapan.
+                </p>
+                <a class="btn-primary" href="mailto:rohis@sekolah.sch.id">
+                    Hubungi Kami <span>↗</span>
+                </a>
+                <small>Ganti alamat email di tombol ini dengan kontak resmi Rohis.</small>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#beranda" class="brand footer-brand">
+            <div class="brand-icon">☪</div>
+            <div class="brand-text">
+                <strong>ROHIS PELITA</strong>
+                <span>SMK PLUS PELITA NUSANTARA</span>
+            </div>
+        </a>
+        <p>Menebar kebaikan, merawat kebersamaan.</p>
+        <span>© 2026 Rohis Pelita Nusantara</span>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
